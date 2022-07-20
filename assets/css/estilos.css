@@ -16,25 +16,22 @@ body {
   height: 100vh;
 }
 
+/* Acerca de mi */
+
+#Acerca-de-mi   {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
 
 .row i  {
   color: teal;
 }
 
-
-
 /* Mis trabajos */
 
 #Mis-trabajos {
   background-color: rgb(92, 169, 169);
-}
-
-#Mis-trabajos .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
 }
 
 /* Contacto */
