@@ -2,6 +2,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+#navbcolor {
+  background-color: #91918b73;
+  }
 
 .navbar-brand h2 {
   font-family: 'Roboto', sans-serif;
@@ -20,7 +23,8 @@ body {
 /* Acerca de mi */
 
 #Sobre-mi   {
-  background-color: rgba(58, 172, 192, 0.795);
+  background-color: white;
+  height: 100vh;
 }
 
 
@@ -36,5 +40,25 @@ body {
   box-shadow: 0 0 30px #81817d;
 }
 
+
+#Sobre-mi .accordion-item {
+  border-radius: 20px 20px 40px 40px;
+  font-family: 'Roboto', sans-serif;  
+
+}
+
+.panel-borde {
+  display: block;
+  padding: 14px 50px 14px 30px;
+  font-size: 16px;
+  color: #0d787c;
+  background: #1d9296;
+  position: relative;
+  border-radius: 20px 20px 20px 20px; 
+}
 /* Contacto */
+
+.trabajo-colaborativo {
+  background-color: rgba(0, 0, 0, 0.767);
+}
 

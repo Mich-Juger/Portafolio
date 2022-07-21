@@ -22,7 +22,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <nav id="navbcolor" class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="https://www.linkedin.com/in/michelle-juger/" target="_blank">
                     <h2 class="padding pt-1 d-flex text">MICHELLE JUGER</h2>
@@ -55,7 +55,7 @@
                     </h5>
                     
                     <div class="mb-5 pb-5">
-                        <a class="btn bg-primary btn-lg text-light me-4" href="#Acerca-de-mi">Trabajos</a>
+                        <a class="btn bg-primary btn-lg text-light me-4" href="#Mis-trabajos">Trabajos</a>
                         <a class="btn bg-primary btn-lg opacity-75 text-light" href="#Contacto">Contacto</a>
                     </div> <!--TERMINO BUTTON-->
                 </div>
@@ -66,18 +66,18 @@
     
     <section id="Sobre-mi" class=" text-center">
         
-        <h2 class="display-4 fw-bold py-5 text-white">SOBRE MI</h2>        
+        <h2 class="display-4 fw-bold py-5 text-black">SOBRE MI</h2>        
      
         <div class="row justify-content-center">
             <div class="col-sm-4">
-                <img class="img-fluid pb-4"  src="assets/img/yo.jpg" alt="imagen yo" >
+                <img class="img-fluid pb" style="box-shadow: 0 0 20px #242420;" src="assets/img/yo.jpg" alt="imagen yo" >
             </div> <!--TERMINO DE 1ERA COLUM-->
             
             <div class="col-6 ms-5">
                 <div class="accordion" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      <h2  class="panel-borde" class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button  style="background-color: #1d9296; color: white;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                           <strong> Especialista en Gestión de Personas </strong>
                         </button>
                       </h2>
@@ -89,8 +89,8 @@
                     </div><!--TERMINO ACORDION RRHH--><!--TERMINO ACORDION RRHH-->
 
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      <h2 class="panel-borde" class="accordion-header" id="panelsStayOpen-headingTwo" class="letrabuton">
+                        <button style="background-color: #1d9296; color: white;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                           <strong> Estudiante de Desarrollo Full Stack JavaScript</strong>
                         </button>
                       </h2>
@@ -102,8 +102,8 @@
                     </div> <!--TERMINO ACORDION FULL STACK--><!--TERMINO ACORDION FULL STACK--><!--TERMINO ACORDION FULL STACK-->
 
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      <h2 class="panel-borde" class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button style="background-color: #1d9296; color: white;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                           <strong>Misión</strong>
                         </button>
                       </h2>
@@ -163,8 +163,6 @@
                                     </div>
                                 </div>
                             </div> <!--TERMINO CAROUSEL LANDDING-->
-
-
 
                             <div class="carousel-item">
                                 <div class="card h-100">
@@ -230,15 +228,44 @@
                     </div>
                 </div>    
             </div>    
-        </div> <!--TERMINO CAROUSEL--><!--TERMINO CAROUSEL--><!--TERMINO CAROUSEL-->
-    </section>
+        </div> 
+    </section> <!--TERMINO CAROUSEL--><!--TERMINO CAROUSEL--><!--TERMINO CAROUSEL-->
 
-    
-	<section class="ftco-section">
+
+    <!--INICIO FORKER-->    <!--INICIO FORKER-->    <!--INICIO FORKER-->
+ 
+        <section class="container">
+            <h2 class="display-4 fw-bold text-center text-dark mb-3">Trabajo Colaborativo</h2>
+            <div class="row">
+                <div class="col-md-6 p-5 mb-5">
+                    <div class="card" style="width: 35rem;">
+                            <img src="assets/img/Danielubal.jpg" class="card-img-top" alt="Fork Daniel">
+                        <div class="card-body">
+                            <h3 class="card-title">Daniel Ubel</h3>
+                            <a class="btn btn-light" href="https://github.com/Mich-Juger/Dakrozzz.github.io" target="_blank">PROYECTO FORK</a>
+                        </div>
+                    </div>
+                </div><!--TERMINAR DANIEL-->
+                
+                <div class="col-md-6 p-5 mb-5">
+                    <div class="card" style="width: 35rem;">
+                            <img src="assets/img/blue-technology-background-with-glowing-circle-design-vector.webp" class="card-img-top" alt="Fork Brayan">
+                        <div class="card-body">
+                            <h3 class="card-title">Brayan</h3>
+                            <a class="btn btn-light" href="https://github.com/Mich-Juger/brayangit.github.io" target="_blank">PROYECTO FORK</a>
+                        </div>
+                    </div><!--TERMINAR BRAYAN  -->
+                </div>
+            </div>
+        </section>        
+   
+    <!--INICIO SECTION CONTACTO-->    <!--INICIO SECTION CONTACTO-->
+
+	<section class="ftco-section" id="Contacto"> 
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
-					<h1 class="heading-section">CONTACTO</h1>
+                    <h2 class="display-4 fw-bold text-center text-dark mb-3">CONTACTO</h2>
 				</div>
 			</div>
 			<div class="row justify-content-center">
