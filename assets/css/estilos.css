@@ -1,13 +1,10 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Playfair Display', serif;
+
 }
 
 #navbcolor {
-  background-color: #91918b73;
-  }
-
-.navbar-brand h2 {
-  font-family: 'Roboto', sans-serif;
+  background-color: #8b9091;
 }
 
 /* Hero Section */
@@ -24,7 +21,25 @@ body {
 
 #Sobre-mi   {
   background-color: white;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+#Sobre-mi .img-fluid  {
+  max-width: 70%;      
+}
+
+@media (max-width: 992px ) {
+  #Sobre-mi .img-fluid  {
+    max-width: 85%;
+    margin-bottom: 40px;      
+  }
+}
+
+@media (max-width: 768px ) {
+  #Sobre-mi .img-fluid  {
+    max-width: 100%;     
+    margin-bottom: 40px;  
+  }
 }
 
 
