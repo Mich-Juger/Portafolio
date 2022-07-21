@@ -1,10 +1,10 @@
 body {
   font-family: 'Playfair Display', serif;
-
 }
 
 #navbcolor {
   background-color: #8b9091;
+  z-index: 10000;
 }
 
 /* Hero Section */
