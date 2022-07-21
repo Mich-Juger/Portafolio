@@ -1,6 +1,7 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
+
 
 .navbar-brand h2 {
   font-family: 'Roboto', sans-serif;
@@ -18,25 +19,22 @@ body {
 
 /* Acerca de mi */
 
-#Acerca-de-mi   {
-  background-color: rgb(255, 255, 255);
-  height: 100vh;
+#Sobre-mi   {
+  background-color: rgba(58, 172, 192, 0.795);
 }
 
-
-.row i  {
-  color: teal;
-}
 
 /* Mis trabajos */
 
 #Mis-trabajos {
-  background-color: rgb(92, 169, 169);
+  background-image: url(../img/GettyImages-1221548295-2048x1365-mich-juger.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#custom-carousel {
+  box-shadow: 0 0 30px #81817d;
 }
 
 /* Contacto */
-
-.formulario {
-  background-color: aliceblue;
-}
 
